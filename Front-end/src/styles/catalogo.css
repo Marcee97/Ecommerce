@@ -1,0 +1,29 @@
+
+
+.section-catalogo{
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.753);
+    backdrop-filter: blur(3px);
+    padding: 1.5em;
+    font-family: monospace;
+    font-size: 1.2em;
+    .contenedor-items{
+        display: flex;
+        justify-content: space-around;
+        color: #000000;
+        gap: 2px;
+        font-family: monospace;
+        font-size: 1.2em;
+        
+    }
+        .imgs{
+            width: 100%;
+            border-radius: 9px;
+            min-width: 400px;
+            max-width: 200px;
+            min-height: 250px;
+            margin: 12px 0;
+        }
+    }
+
+
